@@ -4,7 +4,7 @@ const loadUser = () => {
         .then(data => displayProfile(data))
 }
 const displayProfile = (user) => {
-    console.log(user)
+    // console.log(user)
     const profileDiv = document.getElementById('profile');
     profileDiv.innerText = ''
     const div = document.createElement('div');
